@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tvsummary"
+version = "0.1.0"
+description = "Summarize one page of TV Maze shows by genre, language, decade, and network."
+requires-python = ">=3.11"
+dependencies = [
+    "requests==2.34.2",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
