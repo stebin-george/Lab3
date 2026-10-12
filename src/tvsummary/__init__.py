@@ -8,6 +8,7 @@ from tvsummary.aggregations import (
     ShowsWithoutBroadcastNetwork,
 )
 from tvsummary.models import Show
+from tvsummary.report import build_summary, write_summary
 from tvsummary.sources import DownloadError, ResponseError, TvMazeSource
 
 __all__ = [
@@ -20,4 +21,6 @@ __all__ = [
     "ShowsPremieredPerDecade",
     "ShowsWithoutBroadcastNetwork",
     "TvMazeSource",
+    "build_summary",
+    "write_summary",
 ]
