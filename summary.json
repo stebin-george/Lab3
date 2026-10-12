@@ -1,0 +1,61 @@
+{
+  "source_url": "https://api.tvmaze.com/shows?page=0",
+  "records_processed": 240,
+  "records_skipped_malformed": 0,
+  "shows_per_genre": {
+    "counts": {
+      "Drama": 154,
+      "Comedy": 66,
+      "Crime": 57,
+      "Action": 55,
+      "Thriller": 41,
+      "Science-Fiction": 39,
+      "Romance": 32,
+      "Adventure": 23,
+      "Family": 21,
+      "Horror": 21,
+      "Supernatural": 18,
+      "Mystery": 15,
+      "Fantasy": 13,
+      "Legal": 6,
+      "Medical": 6,
+      "Anime": 4,
+      "History": 4,
+      "War": 4,
+      "Music": 3,
+      "Western": 3,
+      "Espionage": 2,
+      "Sports": 2
+    },
+    "shows_without_genre": 5
+  },
+  "average_rating_by_language": {
+    "averages": {
+      "English": 7.58,
+      "Japanese": 7.88
+    },
+    "shows_excluded": 4
+  },
+  "shows_premiered_per_decade": {
+    "counts": {
+      "1980s": 2,
+      "1990s": 8,
+      "2000s": 51,
+      "2010s": 179
+    },
+    "shows_excluded": 0
+  },
+  "shows_without_broadcast_network": {
+    "web_only_shows": 11,
+    "web_channels": [
+      "AMC+",
+      "Fox Nation",
+      "Hulu",
+      "Lionsgate+",
+      "Netflix",
+      "Paramount+",
+      "Prime Video"
+    ],
+    "shows_with_neither": 0
+  }
+}
